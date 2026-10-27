@@ -4,7 +4,7 @@ services:
     runtime: image
     name: n8n-service
     image:
-      url: docker.io/n8nio/n8n:latest
+      url: docker.io/n8nio/n8n:2.6.4
 
     envVars:
       - key: N8N_ENCRYPTION_KEY
